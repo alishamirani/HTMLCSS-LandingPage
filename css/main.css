@@ -342,6 +342,7 @@ section {
 }
 
 footer {
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     z-index: 0;
@@ -363,10 +364,7 @@ footer:after {
 
 .lists {
     flex: 0 0 75%;
-    gap: 30px;
-    left: -15px;
-    right: -15px;
-    padding: 40px 0;
+    padding: 40px 15px;
 }
 
 .link-header {
@@ -376,11 +374,14 @@ footer:after {
     margin-bottom: 15px;
 }
 
-footer > a {
+footer a {
     color: white;
     text-transform: uppercase;
     font-size: 12px;
     padding: 0 0 4px;
+}
+
+footer a:hover{
     text-decoration: underline;
 }
 
@@ -443,6 +444,9 @@ footer > a {
     padding: 40px 0;
     color: #e5e5e5;
     font-size: 16px;
+}
+
+.ps img {
     max-width: 230px;
 }
 
