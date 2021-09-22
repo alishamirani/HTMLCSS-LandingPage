@@ -197,7 +197,8 @@ section {
 }
 
 .hero h1 {
-    position: relative; left: -30px;
+    position: relative; 
+    left: -30px;
 }
 
 .hero h2 {
